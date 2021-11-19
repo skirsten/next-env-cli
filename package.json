@@ -1,6 +1,19 @@
 {
   "name": "next-env-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "keywords": [
+    "next",
+    "next.js",
+    "env",
+    "dotenv",
+    "dotenv-cli",
+    "cli"
+  ],
+  "description": "dotenv-cli alternative build on Next.js dotenv file loading",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skirsten/next-env-cli"
+  },
   "bin": "cli.js",
   "license": "MIT",
   "peerDependencies": {
