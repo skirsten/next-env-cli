@@ -1,0 +1,9 @@
+{
+  "name": "next-env-cli",
+  "version": "1.0.0",
+  "bin": "cli.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "@next/env": "*"
+  }
+}
