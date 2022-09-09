@@ -18,5 +18,8 @@
   "license": "MIT",
   "peerDependencies": {
     "@next/env": "*"
+  },
+  "devDependencies": {
+    "@next/env": "*"
   }
 }
