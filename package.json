@@ -15,6 +15,11 @@
     "url": "https://github.com/skirsten/next-env-cli"
   },
   "bin": "cli.js",
+  "scripts": {
+    "test": "yarn test:dev && yarn test:prod",
+    "test:dev": "NODE_ENV='development' node cli.js node ./__tests__/test.js",
+    "test:prod": "NODE_ENV='production' node cli.js node ./__tests__/test.js"
+  },
   "license": "MIT",
   "peerDependencies": {
     "@next/env": "*"
