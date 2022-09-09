@@ -19,7 +19,8 @@ yarn add -D @next/env next-env-cli
 ```json
 {
   "scripts": {
-    "my-script": "next-env-cli some-executable -p 123"
+    "my-script": "next-env-cli some-executable -p 123",
+    "my-dev-script": "NODE_ENV='development' next-env-cli some-executable -p 123"
   }
 }
 ```
