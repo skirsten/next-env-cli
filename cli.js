@@ -3,7 +3,7 @@
 const { spawnSync } = require("child_process");
 const { loadEnvConfig } = require("@next/env");
 
-loadEnvConfig(process.cwd(), process.env.NODE_ENV !== "production");
+loadEnvConfig(process.cwd(), process.env.NODE_ENV === "development");
 
 const args = process.argv.slice(2);
 
